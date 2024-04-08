@@ -1,0 +1,21 @@
+1.goto browser and type aws console.
+2.Login into the AWS console.
+3.now type IAM in aws console search bar.
+4.click on IAM.
+5.IAM dashboard will launch on click upon the IAM
+6.click on "Users" from the left panel.
+7.click on "Create user" button from right side.
+8.give any user name. Eg : Amazon
+9.now click on check box Provide user access to the AWS Management Console - optional
+10.now select the checkbox "I want to create an IAM user"
+11.now in Console password, you can either select auto generate or set custom password.
+12.now select the check box "Users must create a new password at next sign-in - Recommended"
+13.click on "Next" button.
+14.aagain click on "Next" button.
+15.now click on "Create user" in Review and create screen.
+16.successfull user created message will show.
+17.copy the console password. eg:b3S#13_6
+18.now click on return to user list and see, a user has created successfully.
+
+<<< !!! Congratulations you have successfully created IAM user !!! >>>
+18
