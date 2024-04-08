@@ -1,0 +1,29 @@
+1.goto browser and type aws console.
+2.Login into the AWS console.
+3.now type EC2 in aws console search bar.
+4.now click on EC2, this will take you the EC2 dashboard screen.
+5.now click on instances from the left panel.
+6.click on "Launch Instance" button from top right side.
+7.now give any name. Eg: Linux_Machine
+8.now scroll down little bit to AMI section(Application and OS images).
+9.select any one of the OS image from quick start. Eg: Ubuntu
+10.now select the AMI which is of free tier eligible type.
+11.now scroll down litte bit down to Instance Type section. 
+12.choose the instance type which is of free tier eligible. Eg: t2.micro
+13.now scroll down to Key pair(login) section.
+14.click on "create new key pair" link text. or select key pair if you have already created earlier.
+15.Now enter any key pair name. Eg: Ubuntu_key_pair
+16.let the key pair type as "RSA" by default.
+17.let the private key file format as ".pem".
+18.click on "Create key pair" button.
+19.now select the key pair name which you created recently.
+20.now goto Network settings and keep the options by default and dont modify any thing.
+21.now scroll down till end and click on "Launch instance" button.
+22.now successfull message prompt will show.
+23.now click on instance and check the instance state should be "Running" if not please wait untill the status change to "Running".
+24.now open the command terminal or git bash.
+25.goto the downloads path.
+26.enter the below command to connect to the server which you created just before a moment.
+ssh -i Ubuntu_key_pair.pem ubuntu@54.166.251.33
+
+<<<< !!! Congratulations you have created your first EC2 server in amazon cloud !!! >>>
