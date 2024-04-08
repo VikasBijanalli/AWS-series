@@ -1,0 +1,13 @@
+1.goto browser and type aws console.
+2.Login into the AWS console.
+3.now type IAM in aws console search bar.
+4.click on IAM.
+5.IAM dashboard will launch on click upon the IAM
+6.click on "User groups" from the left panel.
+7.click on "Create group" button from right side.
+8.now give any name to user group. Eg: Amazon_group
+9.now attach the permission policies. eg: AmazonS3FullAccess
+10.now click on "Create group" button
+11.successfull message will prompt
+
+<<< !!! Congratulations! you have successfully created group in IAM AWS !!! >>>
