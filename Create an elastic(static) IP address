@@ -1,1 +1,10 @@
+1.goto browser and type aws console.
+2.Login into the AWS console.
+3.now type EC2 in aws console search bar.
+4.now click on EC2, this will take you the EC2 dashboard screen.
+5.now scroll down to the Network & Security section.
+6.click on "Elastic IPs".
+7.click on "Allocate Elastic IP address" button.
+8.let the defaults option and click on "Allocate" button.
 
+<<< !!! Congratulation! you have successfully created Elastic(Static) IP address. !!! >>>
